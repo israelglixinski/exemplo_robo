@@ -4,7 +4,7 @@ import os
 
 
 my_path = str(os.path.abspath(__file__)).replace(os.path.basename(__file__),'')
-
+# teste para gerenciador de esteiras
 
 while True:
     with open(f'{my_path}logs/log.txt','a') as arquivo:
