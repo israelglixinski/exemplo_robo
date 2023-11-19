@@ -4,7 +4,6 @@ import os
 
 
 my_path = str(os.path.abspath(__file__)).replace(os.path.basename(__file__),'')
-print(my_path)
 
 
 while True:
